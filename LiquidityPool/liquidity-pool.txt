@@ -1,0 +1,6 @@
+Liquidity Pool Actor: Manage liquidity pools for token pairs.
+-Add liquidity to pools: Let users deposit tokens into liquidity pools.
+-Remove liquidity from pools: Allow users to withdraw their liquidity.
+-Query pool reserves: Check the current reserves of tokens in a pool.
+-Calculate LP token balances: Track liquidity provider token balances.
+-Distribute trading fees: Allocate fees to liquidity providers.

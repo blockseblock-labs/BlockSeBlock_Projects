@@ -1,0 +1,6 @@
+Staking Pool Actor: Stake tokens and earn rewards over time.
+-Stake tokens: Allow users to stake tokens in a pool.
+-Unstake tokens: Let users withdraw staked tokens.
+-Claim rewards: Enable users to claim staking rewards.
+-Query staking balances: Check user staking balances.
+-Calculate APY: Display annual percentage yield for staking.

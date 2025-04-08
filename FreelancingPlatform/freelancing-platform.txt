@@ -1,0 +1,5 @@
+A Motoko actor for a decentralized platform that connects freelancers with clients. The actor should include:
+-Posting job listings and freelance gigs
+-Freelancers applying for gigs
+-Tracking work progress and milestones
+-Rating and reviewing freelancers and clients

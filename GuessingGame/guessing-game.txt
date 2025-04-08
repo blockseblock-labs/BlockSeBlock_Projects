@@ -1,0 +1,1 @@
+Write a Motoko actor that implements a number guessing game. It has a method to start the game which generates a new random number and a method to guess a number which returns whether the guess was right or not, the number of attempts made and a textual feedback.

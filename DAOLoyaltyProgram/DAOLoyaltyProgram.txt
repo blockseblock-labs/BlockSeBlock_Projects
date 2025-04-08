@@ -1,0 +1,8 @@
+Design a Decentralized Autonomous Organization (DAO) for a Loyalty Program that allows:  
+
+    - Retailers to propose loyalty reward ideas with a unique ID, description, and retailer identity.  
+    - Members to vote on proposed rewards, influencing program benefits and tiers.  
+    - Approval of proposals once they meet a predefined vote threshold.  
+    - Automated distribution of reward points to members based on participation.  
+    - Redemption of reward points for benefits, ensuring members cannot redeem more than their balance.  
+    - Querying and tracking of proposals, votes, member rewards, and redemptions for transparency and management.

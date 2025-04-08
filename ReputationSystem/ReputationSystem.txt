@@ -1,0 +1,2 @@
+A system where users earn reputation points based on contributions to a community or platform. Users (Principals) can perform actions (e.g., submit content or help others) to earn points.
+Create a Motoko actor to track user actions and calculate reputation scores.

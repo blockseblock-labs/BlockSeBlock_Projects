@@ -1,0 +1,8 @@
+Create a Motoko actor that functions as a backend for a flashcard application. The actor should expose the following functions:
+- Create a flashcard with a question and answer.
+- Read a flashcard by its id.
+- Update a flashcard by its id.
+- Delete a flashcard by its id.
+- List all flashcards sorted by id.
+- Rate a flashcard in terms of confidence from 1-5.
+- List all flashcards sorted by confidence.

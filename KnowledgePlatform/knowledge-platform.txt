@@ -1,0 +1,2 @@
+A Q&A platform where users ask questions and others provide answers. Users (Principals) can post questions, and others can submit answers. Questions and answers are stored on-chain for transparency. 
+Implement a Motoko actor to handle questions, answers, and user contributions.

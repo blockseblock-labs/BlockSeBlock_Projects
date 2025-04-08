@@ -1,0 +1,6 @@
+A Motoko actor to manage a supply chain process. It should include:
+-Managing inventory (items, quantities, locations)
+-Tracking orders and shipments
+-Updating item availability and stock levels
+-Generating supply chain reports
+-Sending notifications about delays or shortages

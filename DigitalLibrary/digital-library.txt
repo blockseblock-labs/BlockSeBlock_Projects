@@ -1,0 +1,12 @@
+Create a Motoko actor that functions as a Digital Libaray Management System. The actor should:
+
+- Borrow and return books effortlessly, ensuring a smooth and hassle-free experience.
+- Reserve books that are currently checked out and get notified when they are available.
+- The system automatically tracks due dates and calculates late fees for overdue books.
+- Easily search for books using filters like title, author, genre, or availability.
+- Stay updated with the latest book arrivals and discover new reads instantly.
+- Keep track of borrowed books, due dates, and any outstanding late fees in one place.
+- Enjoy a fully digital library where you can borrow, return, and reserve books anytime.
+- Get reminders for due dates, available reservations, and pending late fees.
+- A simple and efficient way to manage book loans while ensuring fair access for all.
+- Let the system handle loan durations, overdue penalties, and tracking so you can focus on reading.

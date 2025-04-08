@@ -1,0 +1,11 @@
+Create a Motoko actor that functions as a tic-tac-toe dapp. The actor should expose functions for:
+- Creating a new game with another player.
+- Deleting an existing game with another player.
+- Making a move in an existing game.
+- Getting the current state of an existing game, also showing the board in a human-readable format.
+- Listing all games of the caller.
+- Getting the total number of played games.
+- Getting game statistics for the caller.
+
+An additional requirement is that the player should be able to play not only
+against another player but also against themselves.

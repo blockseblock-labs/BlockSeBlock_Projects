@@ -1,0 +1,3 @@
+Write a canister in Motoko that implements a permanent timestamping service. The two endpoints are the following:
+- record: Given a record consisting of a textual description and a unique identifier in the form of a byte array for the data that is to be timestamped, the canister stores the record together with the current timestamp in seconds. If an entry for this identifier already exists or the size of the identifier exceeds 64 bytes then the canister does nothing and returns "null".
+- retrieve: Given an identifier in the form of a byte array, this endpoint returns the corresponding entry consisting of the textual description and the timestamp when it was stored. If no entry is stored for the given identifier, then "null" is returned.

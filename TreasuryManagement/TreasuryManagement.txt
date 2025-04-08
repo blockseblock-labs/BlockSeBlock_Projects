@@ -1,0 +1,6 @@
+Treasury Management Actor: Manage DAO treasuries.
+-Deposit funds: Allow users to deposit funds into the treasury.
+-Withdraw funds: Enable withdrawals from the treasury.
+-Query treasury balances: Display treasury balances.
+-Manage budgets: Set budgets for DAO initiatives.
+-Adjust spending limits: Define limits for treasury spending.

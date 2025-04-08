@@ -1,0 +1,4 @@
+Implement a Staking Contract for ICP Tokens in Motoko
+- Allow users to lock their ICP tokens and earn rewards proportionally to their stake.
+- Implement an early withdrawal penalty to prevent gaming the staking rewards.
+- Ensure time-based rewards that increase for long-term stakers.

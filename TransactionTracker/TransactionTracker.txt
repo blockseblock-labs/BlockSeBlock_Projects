@@ -1,0 +1,15 @@
+Create a Motoko actor that functions as a Transaction Management System. The actor should:
+
+- Allow any principal (user) to initiate financial transactions with a recipient (another principal), specifying the amount to transfer.
+- Ensure that the amount must be greater than zero to be valid.
+- Before recording a transaction, ensure that the sender has sufficient balance or assets to complete the transaction.
+- Transactions should be recorded only if the sender has enough funds; otherwise, return an error message.
+- Store transaction records, including details such as the sender’s principal, receiver’s principal, transaction amount, and timestamp.
+- Provide an efficient mechanism to store and retrieve transaction records.
+- Allow users to retrieve their transaction history, including both sent and received transactions.
+- Ensure that users can view transactions by filtering for their role as the sender or receiver.
+- Provide a way for users to query their total transaction amount, summing up all funds they have sent or received.
+- Show detailed transaction information, including transaction ID, sender, receiver, amount, and timestamp for each transaction.
+- Ensure that all transactions are publicly verifiable by all users.
+- Provide a way to check if the transaction data is consistent and transparent.
+- Allow users to receive notifications when their transaction has been successfully completed.

@@ -1,0 +1,6 @@
+Motoko actor to handle course data, user progress, and completion records.
+-Add new courses: Any user can add new courses, including details such as course name, description, and total lessons.
+-Track user progress: Users can track and update their progress for specific courses, including the number of lessons completed.
+-Check course completion: Users can check whether they have completed all lessons in a specific course.
+-View all courses: Users can view a list of all available courses and details about each course.
+-Delete courses: Users can delete courses, including removing any progress associated with the course.

@@ -1,0 +1,6 @@
+Create a decentralized lottery system with the following features:
+
+- Users (Principals) can buy tickets for a fixed price.
+- The system automatically draws a winner when the minimum number of participants is reached or after 24 hours.
+- Users can view the current prize pool and time remaining until the next draw.
+- The system uses on-chain randomness to ensure fair winner selection.

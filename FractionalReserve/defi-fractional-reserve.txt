@@ -1,0 +1,9 @@
+Create a Motoko actor implementing a fractional reserve mechanism with dynamic supply management. The actor should:
+- Track total supply, reserve balance, and reserve ratio
+- Allow an admin to set up the contract and assign a price oracle
+- Enable the oracle to update the price and trigger supply expansion or contraction
+- Implement supply adjustments based on predefined price thresholds (expansion at 1.05, contraction at 0.95)
+- Provide methods to query total supply, reserve balance, and current reserve ratio
+- Include access control so only admin can set oracle and adjust reserve ratio
+- Expand/contract supply by 10% when price thresholds are crossed
+- Ensure reserve adjustments maintain a proportional balance

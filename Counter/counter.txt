@@ -1,0 +1,4 @@
+Create a Motoko actor that functions as a simple counter. The actor should:
+- Increment and return the current count.
+- Decrement and return the current count.
+- Reset the count to zero and return it.

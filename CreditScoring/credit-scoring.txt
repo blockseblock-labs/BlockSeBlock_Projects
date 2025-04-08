@@ -1,0 +1,3 @@
+Build a Decentralized Credit Scoring System in Motoko
+- Track user borrowing history and repayment behavior to assign credit scores
+- Implement a decentralized reputation system to offer lower rates to trustworthy borrowers

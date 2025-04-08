@@ -1,0 +1,1 @@
+A platform where users can submit messages or files to be 'unlocked' at a future date. Users (Principals) upload content with a release timestamp. Content remains inaccessible until the specified time. Build a Motoko actor to store content and enforce time-based access restrictions.

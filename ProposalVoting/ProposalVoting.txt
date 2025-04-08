@@ -1,0 +1,1 @@
+A tool for creating and voting on proposals. Users (Principals) can submit proposals, and participants can vote 'Yes' or 'No.' Results are tallied and stored transparently. Implement a Motoko actor to handle proposals, voting, and result storage.

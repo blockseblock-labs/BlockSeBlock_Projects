@@ -1,0 +1,12 @@
+Write a Flash Loan Protocol in Motoko that features:
+- Provides instant, uncollateralized loans for a fixed duration.
+- Uses a liquidity pool to fund loans and receive repayments.
+- Charges a daily interest on borrowed amounts.
+- Loans must be repaid before the due date to avoid default.
+- Borrowers can only take one loan at a time.
+- Loan amounts cannot exceed available liquidity.
+- Loan duration is measured in days and calculated precisely.
+- Repayment includes principal + interest, returning funds to the pool.
+- Borrowers can check their loan details anytime.
+- Liquidity pool balance is updated dynamically.
+- Ensures fair and transparent lending on the motoko blockchain.

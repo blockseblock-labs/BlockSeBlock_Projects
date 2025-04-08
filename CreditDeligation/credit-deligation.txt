@@ -1,0 +1,6 @@
+Credit Delegation Actor: Delegate credit to other users.
+-Delegate credit: Allow users to delegate borrowing power.
+-Revoke credit delegation: Enable users to revoke delegated credit.
+-Query delegated credit: Check the status of delegated credit.
+-Manage delegation fees: Set fees for credit delegation.
+-Calculate credit limits: Compute borrowing limits for delegated credit.

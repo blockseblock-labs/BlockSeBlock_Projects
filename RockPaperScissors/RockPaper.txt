@@ -1,0 +1,6 @@
+Write the code for a canister in Motoko to play rock-paper-scissors against the canister.
+When the player submits its move, the canister should choose its move randomly with a probability of 25%. With probability 75% the canister should use the following deterministic strategy:
+- If the player played the same move in the previous two games, play the move that beats this move.
+- If the player won the previous round, choose the move that beats the player's last move.
+- If the player lost the previous round, assume that the player will change the move to the move that would have won, so the canister should choose the move that loses against the player's last move.
+- If the last round ended in a tie, choose the move that loses against the previous move.

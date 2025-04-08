@@ -1,0 +1,7 @@
+Create a basic AMM canister in Motoko with the following features:
+
+- Simple liquidity pool management (add/remove liquidity)
+- Token swap functionality
+- Basic manual rebalancing function that attempts to maintain a 1:1 ratio
+- Pool state query function
+- Admin authorization for rebalancing operations

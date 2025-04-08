@@ -1,0 +1,6 @@
+Write a Motoko canister that acts as a blackjack dealer. It must provide the following endpoints:
+- reset: The endpoint resets the state.
+- initGame: Cards are shuffled, the player gets two cards, and the dealer gets one card.
+- getGameState: The current state is returned, indicating if the game is ongoing or ended, the scores of the player and the dealer, plus the current cards of the player and the dealer.
+- hit: If the game is ongoing, the player gets a new card, which may end the game.
+- stand: The player asks to end the game, which causes the dealer to take cards until the score of the dealer hand is at least 17.

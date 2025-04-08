@@ -1,0 +1,6 @@
+Yield Farming Actor: Deposit tokens into farms to earn rewards.
+-Deposit tokens into farms: Let users deposit tokens into yield farms.
+-Withdraw tokens: Allow users to withdraw farmed tokens.
+-Claim farming rewards: Enable users to claim farming rewards.
+-Query farm details: Display farm details like APY and duration.
+-Calculate farming APY: Compute annual percentage yield for farms.

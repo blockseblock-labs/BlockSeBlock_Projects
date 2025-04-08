@@ -1,0 +1,7 @@
+This Motoko actor implements a  daily journal system with the following features:
+
+-Users can create a new journal entry with a date, content, tags, and an optional reminder, Entries are stored under the user's identity in the journal system.
+-Allows users to update the content of an existing entry while keeping the same date, tags, and reminder, If the entry does not exist for the given user and date, the function returns false.
+-Users can remove an entry based on its date, If no entry is found for the given date, the function returns false.
+-Users can fetch all journal entries associated with their identity.
+-Allows users to filter their entries by a specific tag, Returns all entries where the specified tag exists in the entry’s tag list.

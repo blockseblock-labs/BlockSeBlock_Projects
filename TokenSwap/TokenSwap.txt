@@ -1,0 +1,6 @@
+Token Swap Actor: A decentralized exchange for swapping tokens.
+-Add/remove liquidity: Enable users to add or remove liquidity from pools.
+-Swap tokens with slippage control: Allow token swaps with user-defined slippage tolerance.
+-Query token balances: Check user balances for specific tokens.
+-Calculate exchange rates: Compute real-time exchange rates for token pairs.
+-Manage trading fees: Set and distribute fees for swaps.

@@ -1,0 +1,3 @@
+Build an Motoko application that allows users (principals) create their own private shopping lists.
+The shopping lists support adding and removing items, checking and unchecking them, sharing with another user, deleting the list, getting the list, and getting just the unchecked items.
+Only the list creator or users the list was shared with should be able to use that list.

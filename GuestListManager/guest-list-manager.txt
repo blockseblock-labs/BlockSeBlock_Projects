@@ -1,0 +1,4 @@
+Develop an app for managing guest lists where users (Principals) can add and remove names from a list.
+User can add guest name 
+User can see the guest list 
+User can delete the guest form list by name

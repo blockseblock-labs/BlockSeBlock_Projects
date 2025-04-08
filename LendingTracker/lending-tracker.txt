@@ -1,0 +1,7 @@
+This Motoko actor implements a lending tracker system with the following features:
+
+- Any principal can record a loan transaction between a borrower and a lender ,A borrower cannot loan to themselves, Loan transactions include the borrower's name, lender's name, loan amount, and settlement status.
+- Users can retrieve a list of loans where they are the borrower, Loan history is stored using a Trie data structure for efficient access.
+- A borrower can mark a specific loan as settled using its index in the transaction list, Once settled, the loan is updated in storage with its status changed to `true`.
+- A function calculates the total outstanding loan balance for a user, Only unsettled loans are included in the balance calculation.
+- Loan records are stored in a Trie mapping borrowers to their list of loans, Efficient retrieval and updating of loan details are ensured using this structure.

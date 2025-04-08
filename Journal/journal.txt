@@ -1,0 +1,4 @@
+A decentralized personal journal for recording entries. 
+Entries are stored on-chain and associated with the user. 
+Users (Principals) can write, edit, remove and view their own journal entries. 
+Develop a Motoko actor to store and manage journal entries for each user.

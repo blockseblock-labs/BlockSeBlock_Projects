@@ -1,0 +1,2 @@
+Write a Motoko actor that lets users record expenses for themselves or for a group of principals. 
+Every principal can retrieve the sums they owe and are owed, and by whom. This debt graph does not need to be simplified. 

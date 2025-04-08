@@ -1,0 +1,11 @@
+NFT Marketplace for Static NFTs with the following features:
+
+- Users can mint new NFTs with image data and name
+- Users can list their NFTs for sale with a price
+- Users can purchase listed NFTs from other users
+- Users can view all their owned NFTs
+- Users can view all listed NFTs in the marketplace
+- Users can check if an NFT is listed
+- Users can verify ownership of NFTs
+- Users can get the original owner of a listed NFT
+- Users can get the price of a listed NFTs

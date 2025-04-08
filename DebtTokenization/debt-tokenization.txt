@@ -1,0 +1,6 @@
+Debt Tokenization Actor: Tokenize loans for secondary markets.
+-Loan NFTs: Represent loans as NFTs for trading.
+-Fractionalization: Split loans into smaller tradable units.
+-Debt trading: Enable secondary market trading of loans.
+-Yield-bearing tokens: Issue tokens that accrue interest.
+-Repayment automation: Automate loan repayments for token holders.

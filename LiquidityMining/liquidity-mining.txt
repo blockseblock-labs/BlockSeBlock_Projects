@@ -1,0 +1,4 @@
+    Develop a Liquidity Mining Contract in Motoko
+- Reward users with governance tokens for providing liquidity to an AMM pool.
+- Implement a decay mechanism where rewards reduce over time to control inflation.
+- Prevent abusive behavior by requiring a minimum staking duration.

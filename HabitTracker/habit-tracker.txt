@@ -1,0 +1,1 @@
+Write a Motoko actor where users (principals) can log daily habits and check them off as completed.

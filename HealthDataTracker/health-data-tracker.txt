@@ -1,0 +1,3 @@
+Write a Motoko actor for keeping track of health stats for each user.
+Users (Principals) can log and view their health data (e.g., weight, steps, heart rate).
+Data is stored on-chain and associated with the user’s Principal.

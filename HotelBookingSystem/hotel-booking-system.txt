@@ -1,0 +1,1 @@
+Build an actor to handle room reservations and cancellations for hotels.

@@ -1,0 +1,2 @@
+Create a Motoko actor that implements a countdown timer. It has a method to set the timer duration (the timer starts immediately) and a callback to be called when the time is up.
+Multiple timers can be active at any time.

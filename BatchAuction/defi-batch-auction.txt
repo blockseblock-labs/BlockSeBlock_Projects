@@ -1,0 +1,29 @@
+Develop a Motoko actor to serve as the backend for a batch auction application for a token. 
+The actor will manage the following functionalities:
+
+Sale Round configuration
+* An auction is defined by a predetermined price range (e.g., $1 to $2) and 
+a token sell target (e.g., 1 million tokens).
+* An admin sets these parameters before the start of order submission. 
+
+Order Submission
+* An admin can open the order submission window. 
+* Users can submit order bids consisting of a maximum price (e.g., $1.2) and desired investment amount (e.g., $1000). 
+Both values are submitted as decimials. 
+* Users can query their bids. 
+
+Closure of Order Book
+* An admin can close the order submission window, which immediately triggers the pricing engine and token allocation.
+
+Pricing Engine
+* The sale price for each round is determined by a revenue-maximizing
+algorithm that performs a parameter sweep from the minimum to the maximum price.
+* The algorithm evaluates each scenario price p as follows:
+1. Identifying the set of eligible orders with a bid price ≥ p.
+2. Summing the total funding amount F_p for these orders.
+3. Calculating the total token demand D_p by dividing F_p by p.
+* The optimal price is determined by identifying the maximum p such that D_p, the total
+token demand, is greater than or equal to the specified sell target. 
+* In other words, the algorithm selects the highest price at which all tokens, as outlined by the sell target,
+can be sold.
+* All participants with eligible bids pay the same price. 

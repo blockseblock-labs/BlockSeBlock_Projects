@@ -1,0 +1,4 @@
+Write a Motoko actor that implements a poll creator.
+A user (principal) can create a poll and users can vote on it anonymously.
+The original user can at any time close the poll and get the voting results.
+The actor should support multiple polls running at the same time.
